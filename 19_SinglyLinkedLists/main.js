@@ -95,10 +95,8 @@ class SinglyLinkedList {
 
         if (i === 0) {
             this.unshift(v)
-            this.length++
         } else if (i + 1 === this.length) {
             this.push(v)
-            this.length++
         } else {
             var frstNode = this.get(i-1)
             var nextNode = frstNode.next
@@ -144,7 +142,7 @@ class SinglyLinkedList {
     }
 
     print(){
-        var arr =[]
+        var arr = []
         var current = this.head
         while (current) {
             arr.push(current.val)
