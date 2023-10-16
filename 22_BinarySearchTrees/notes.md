@@ -23,3 +23,6 @@ every node to the right of the parent is always greater than the parent
 
 ## Why these are used
 easy to search, every search effectively chops things in half
+
+## Big O
+O(log n)
