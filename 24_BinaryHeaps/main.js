@@ -14,6 +14,12 @@
  * 
  * For any child node at index n...
  * its parent is at index (n-1)/2 floored
+ * 
+ * Big O
+ * - fast for insertion and deletion
+ * - O(log n)
+ * - why? well, for 16 elements where we insert an element larger than all others...we have 4 comparisons
+ * 
  */
 
 
